@@ -118,7 +118,7 @@ h3 {
     color: white; 
     line-height: 2rem; 
 }
-figcaption, .caption {
+figcaption {
     font-family: "Untitled",Helvetica,san-serif;
     font-size: .75rem;
     line-height: .75rem;
