@@ -38,12 +38,6 @@ function updatePosition(e){
             remitbeePre.style.left = e.x + xOffset + "px";
         }
 
-        var watgPre = document.getElementById('watg-pre');
-        if (watgPre.style.display == "block"){
-            watgPre.style.top = e.y + window.scrollY + 40 + "px";
-            watgPre.style.left = e.x + xOffset + "px";
-        }
-
         var bauhausPre = document.getElementById('bauhaus-pre');
         if (bauhausPre.style.display == "block"){
             bauhausPre.style.top = e.y + window.scrollY + 40 + "px";
