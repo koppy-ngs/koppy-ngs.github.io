@@ -1,0 +1,91 @@
+<!-- Coded by Virginia and updated March 2023 -->
+<!DOCTYPE html>
+<html lang="en-ca">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="User experience researcher and designer from Vancouver, BC">
+        <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex">
+        
+        <title>CBC News</title>
+        <link rel="shortcut icon" type="image/png" href="img/V.png?">
+        <link rel="stylesheet" href="css/project.css">
+        
+    </head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q277VK0SKN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q277VK0SKN');
+    </script>
+    
+    <body>
+        <a href="index.html#case-studies" class="img-link">
+            <img src="img/button-back.svg" alt="Back Icon" class="img-top">
+            <img src="img/button-back-invert.svg" alt="Back Icon Invert" class="img-hide">
+       </a>
+
+       <header class="cbc">
+        <div class="overlay">
+            <div class="overview">
+                <h1>CBC News</h1>
+                <p class="tags">/ feature design for mobile applications</p>
+                <p class="tags">/ user experience design</p>
+            </div>
+        </div>
+        </header>      
+
+        <main>
+            <h3>“My Feeds” is a feature proposal for the existing CBC News mobile application to improve efficiency by allowing users to customize and organize their news feeds.</h3>
+            <p>As part of an interface design class in 2020, this was a two-week individual case study to research the existing application interface, interaction patterns, features, its intended users, and user goals. The research led to the proposal of a new feature to improve the user experience for the CBC News mobile application.</p>
+            <figure class="fig-lg">
+                <img src="img/cbc-splash.png" alt="CBC News app splash">
+            </figure>
+        
+            <h2>Investigating Users’ Pain Points</h2>
+            <p class="nospace">With limited time and resources, I resorted to secondary research methods like studying users’ application reviews to help gain insights into how they are currently using the mobile application. Based on users’ reviews of the CBC news mobile application in Apple’s App Store, I compiled users’ pain points into three categories:</p>
+            <ol>
+                <li>A disorganized content structure where users cannot find content or take a long time to search for the right content,</li>
+                <li>While users want to follow specific topics and stories, they receive too many irrelevant alerts and notifications, and</li>
+                <li>Lack of tangible benefits (over browsing the web) and engagements – no options to leave comments and unable to share articles.</li>
+            </ol>
+            <figure class="fig-med">
+                <img src="img/cbc-reviews.png" alt="App store reviews">
+                <figcaption>User reviews of the cbc news mobile application from apple’s app store</figcaption>
+            </figure>
+
+            <p class="spacer nospace">Next, I conducted a task analysis to better empathize with users’ pain points.</p>
+            <p class="nospace"><strong>Task: The user wants to read updates on the latest real estate stores.</strong></p>
+            <p>In the current process, if the user wants to read up on real estate news, he will either have to type it in the search bar every time he opens up the app or tap on the Sections from the navigation bar. From the list on the Sections screen, he will need to decide which section real estate falls in. When the user taps into Business, he will get a list of all the business articles, and there’s no option to filter out articles from there. As a result, he will need to scroll through the list to find some news updates on real estate.</p>
+            <figure class="fig-med">
+                <img src="img/cbc-task.png" alt="Task analysis">
+                <figcaption>From left to right: top stories, sections, business</figcaption>
+            </figure>
+
+            <h2>Proposal: Feed Customization</h2>
+            <p>Research and discovery helped reveal potential gaps between the existing application and the goals of its intended users. The proposed feature is feed customization, where users can select and build a list of topics to personalize their feeds. The feature correlates to their goals to access news stories and find content quicker as personalized feeds will be in one place. This feature will also help users filter out unwanted news feeds.</p>
+            <figure class="fig-lg">
+                <img src="img/cbc-proposal.png" alt="User flow of proposal">
+                <figcaption>low-fidelity user flow for the proposed feature</figcaption>
+            </figure>
+
+            <p class="spacer nospace">User flow of the proposed feature:</p>
+            <ul>
+                <li>Landing Screen: When users have limited time and wish to get a quick update on the coronavirus situation, they can tap on “My Feeds” from the navigation bar.</li>
+                <li>My Feeds: On this page, they can scroll horizontally through the top bar and find the “coronavirus” in the top bar as they have previously followed the topic. From here, they can read the latest articles on the tag.</li>
+                <li>Tags in Articles: Tags placed at the end of each article. The tags in white are the topics that they are following. If they want to explore news articles under a related topic, they can tap on a tag. They are also able to double-tap to follow.</li>
+                <li>Tags/Topics & Follow Tag: On the tags page, there will be a list of news articles under that tag for further exploration. Users can follow the topic by tapping the button in the top-right-hand corner.</li>
+            </ul>
+
+            <h2>Feature Integration and Refinement</h2>
+            <p>In the final iteration, the new feature “My Feeds” replaced the existing “Local” feature as local news can be part of the customization in the proposed feature. I made an adjustment to the naming convention – from “Follow” to “Add” to avoid confusion with the existing “Follow” feature where users receive notifications on topics. Lastly, I applied the style and interaction guidelines when integrating the new functionalities into the application for consistency. Using Figma, I created an <a href="https://www.figma.com/proto/OF8PnT2iar5PCoGjINLgky/CBC-News-Feature-Design-Prototype?node-id=1%3A20&page-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A20" target="blank">interactive prototype</a> for the proposed feature.</p>
+            <figure class="fig-med">
+                <img src="img/cbc-finalscreens.png" alt="Final screens">
+            </figure>
+        </main>
+    </body>
+</html>
